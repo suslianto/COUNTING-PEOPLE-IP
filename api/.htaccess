@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /api/
+
+RewriteRule ^total$ modules/total.php [L]
+RewriteRule ^data$ modules/get_data.php [L]
+RewriteRule ^blacklist$ modules/blacklist.php [L]

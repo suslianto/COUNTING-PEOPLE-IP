@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+body {
+  background: #EEEEEE!important;
+}
+.navw {
+  background: #fff !important;
+}
+.navbar-nav li a {
+  margin: 2px 10px;
+  font-size: 17px;
+  font-weight: bold;
+}
+.sh {
+  box-shadow: 0 4px 8px 0 rgb(0,0,0,0.1);
+  outline: none;
+}
+.logo__name {
+  width: 130px;
+  height: 50px;
+}
+.contain {
+  margin-top: 20%;
+}
+.cont {
+  margin-top: 30%;
+}
+
+.title {
+  font-weight: bold;
+  color: #18191a;
+  border-bottom: 3px solid #5005e9;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.cer {
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.btn__top {
+  outline: none;
+  border: none;
+  bottom: 5%;
+  right: 5%;
+  padding: 5px;
+  width: 50px;
+  height: 40px;
+  background: #d6d6d6;
+  color: #171c1d;
+  position: fixed;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgb(0,0,0,0.3);
+  display: none;
+}
+
+footer {
+  bottom: 0;
+  left: 100%;
+  padding: 30px;
+  background: #a2a2a2;
+  color: #484848;
+  text-align: center;
+  font-weight: bold;
+}
+
+.profile {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  overflow-y: hidden;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgb(0,0,0,0.5);
+}
+
+.nama {
+  font-weight: bold;
+}
+
+.images {
+  width: 100%;
+  height: 100%;
+}
+
+.sosmed a {
+  margin: 0 15px;
+  width: 12%;
+  height: 20%;
+  padding: 5px;
+  text-align: center;
+  color: #fff;
+  border-radius: 5%;
+}
+
+.fb {
+  background: #0B84ED!important;
+}
+.ig {
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+.git {
+  background: black;
+}
+.jauh {
+  padding-top: 13%;
+}
+.dp {
+  background: none;
+  border: none;
+  outline: none;
+  color: black !important;
+}
+.school_logo {
+  width: 100%;
+  height: 50%;
+  border-radius: 5%;
+}
+.sc {
+  font-weight: bold;
+}
+.icn {
+  margin: 2px 10px;
+}
+.thumb {
+  width: 100px;
+  height: 100px;
+}
+.im {
+  width: 36%;
+  height: 15vh;
+  border-radius: 50%;
+  overflow-y: hidden;
+  border: 2px solid black;
+}
+.txk {
+  margin-left: 8%;
+}
+.w-80 {
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+.gbr {
+  height: 150px;
+  width: 150px;
+  overflow-y: hidden;
+}
+.texs {
+  margin-top: 5%;
+  height: 140px;
+  overflow-y: scroll;
+}
+
+.nyet {
+  margin: 3% 3%;
+}
+.bxs:hover {
+  box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2);
+}
+
+.img-s {
+  width: 100px;
+  height: 80px;
+}
+.bs {
+  margin: 11px 0;
+}
+.tengah {
+  margin: auto;
+  display: block;
+  box-shadow: 0 4px 8px 0 rgb(0,0,0,0.2);
+}
+.rn {
+  margin-top: -10%;
+}
+.gmbr {
+  background: #6777F0!important;
+}
+.tks {
+  text-decoration: none !important;
+}
+.tks:hover {
+  text-decoration: none !important;
+}
+.hit {
+  color: black;
+}
+.hit:hover {
+  color: black;
+}
+@media (min-width: 576px){
+  .nyet {
+    margin: 0 0;
+  }
+  .profile {
+    width: 200px;
+    height: 200px;
+  }
+  .cont {
+    margin-top: 20%;
+  }
+  .contain {
+    margin-top: 15%;
+  }
+}

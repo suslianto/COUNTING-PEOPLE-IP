@@ -40,7 +40,7 @@ function coun($page) {
         $rawData[] = [
             "dept" => $val["deptName"],
             "sn"   => $val["devSn"],
-            "name" => $val["devName"],
+            "name" => $val["doorName"],
             "acc"  => $val["eventName"],
         ];
     }
@@ -57,14 +57,15 @@ function coun($page) {
         foreach ($rawData as $entry) {
             if (in_array($entry['acc'], ['Global Anti-Passback(logical)', 'Disconnected'])) continue;
 
-            if ($entry['dept'] === $dept) {
-                $devName = $entry["name"];
+       // if ($entry['dept'] === $dept) {
+        if ($entry['dept'] === $dept && $entry['acc'] === 'Normal Verify Open') {
+                $doorName = $entry["name"];
 
-                if (preg_match("/1 - IN/i", $devName) || preg_match("/2 - IN/i", $devName) || preg_match("/3 - IN/i", $devName)) {
+                if (preg_match("/Mobil IN/i", $doorName) || preg_match("/Motor IN/i", $doorName) || preg_match("/Pendestrian IN/i", $doorName)) {
                     $in++;
                 }
 
-                if (preg_match("/1 - OUT/i", $devName) || preg_match("/2 - OUT/i", $devName) || preg_match("/3 - OUT/i", $devName)) {
+                if (preg_match("/Mobil OUT/i", $doorName) || preg_match("/Motor OUT/i", $doorName) || preg_match("/Pendestrian OUT/i", $doorName)) {
                     $out++;
                 }
             }

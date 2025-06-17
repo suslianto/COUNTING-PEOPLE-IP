@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Counting People Zona Hijau</title>
+    <title>Counting People</title>
     <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="plugins/slick/slick.css">
@@ -41,7 +41,7 @@
     <div class="p-2 shadow pl-5 pr-5">
         <div class="row no-gutters">
             <div class="col-6 col-sm-6 col-md-6 col-xs-6">
-                <a class="navbar-brand" href="index.php"><img src="images/logo-ip3.png" alt="logo"></a>
+                <a class="navbar-brand" href="/"><img src="images/logo-pusharlis-1.png" alt="logo"></a>
             </div>
             <div class="col-6 col-sm-6 col-md-6 col-xs-6 text-right mt-2">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,11 +51,11 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav text-center">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php"><b>Zona Hijau</b></a>
+                        <a class="nav-link" href="/"><b>Area Pusharlis</b></a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="/merah"><b>Zona Merah</b></a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>
@@ -64,7 +64,7 @@
         <div class="row no-gutters mt-1">
           <div class="col-12 col-sm-12 col-md-12 col-xs-12">
             <h2 class="font-weight-bold text-center">
-              COUNTING PEOPLE ZONA HIJAU
+              COUNTING PEOPLE AREA PUSHARLIS
             </h2>
           </div>
         </div>
